@@ -1,0 +1,1 @@
+This repository showcases a subtle bug in Elixir related to prematurely terminating processes within an `Enum.each` loop. The `bug.ex` file contains the buggy code, which unexpectedly terminates the process instead of gracefully exiting the loop. The `bugSolution.ex` file provides a corrected version using a more appropriate approach that avoids premature termination.
